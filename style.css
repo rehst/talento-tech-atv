@@ -12,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalho */
 header {
     background-color: #333;
     color: white;
@@ -22,6 +21,7 @@ header {
 
 header h1 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 nav ul {
@@ -58,7 +58,10 @@ section h2 {
     font-size: 1.8em;
 }
 
-/* Produtos */
+.titulo{
+    text-align: center;
+}
+
 #produtos {
     display: flex;
     gap: 20px;
